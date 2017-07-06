@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Fira";
+    src: url("../fonts/FiraSansExtraCondensed-Medium.eot");
+    src: url("../fonts/FiraSansExtraCondensed-Medium.eot") format("embedded-opentype"),
+    url("../fonts/FiraSansExtraCondensed-Medium.woff") format("woff"),
+    url("../fonts/FiraSansExtraCondensed-Medium.ttf") format("truetype"),
+    url("../fonts/FiraSansExtraCondensed-Medium.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
