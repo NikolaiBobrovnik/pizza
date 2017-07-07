@@ -11,11 +11,13 @@ nav,
 section {
     display: block;
 }
+
 audio,
 canvas,
 video {
     display: inline-block;
 }
+
 html,
 body,
 div,
@@ -83,14 +85,17 @@ td {
     font-size: 100%;
     background: transparent;
 }
+
 ol,
 ul {
     list-style: none;
 }
+
 blockquote,
 q {
     quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -98,53 +103,66 @@ q:after {
     content: '';
     content: none;
 }
+
 :focus {
     outline: 0;
 }
+
 ins {
     text-decoration: none;
 }
+
 del {
     text-decoration: line-through;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 .cf:before,
 .cf:after {
     content: "";
     display: table;
 }
+
 .cf:after {
     clear: both;
 }
+
 .cf {
     zoom: 1;
 }
+
 html {
     font-size: 10px;
 }
+
 @media only screen and (min-width: 1600px) and (max-width: 1920px) {
     html {
         font-size: 0.52vw;
     }
 }
+
 @media only screen and (max-width: 1600px) {
     html {
         font-size: 8px;
     }
 }
+
 @media only screen and (max-width: 1040px) {
     html {
         font-size: 1vw;
     }
 }
+
 @media only screen and (max-width: 480px) {
     html {
         font-size: 2.5vw;
     }
 }
+
 .clearifx:after {
     content: "";
     display: table;
@@ -155,20 +173,24 @@ html,
 body {
     height: 100%;
 }
+
 .page-wrapper {
     overflow: hidden;
     min-height: 100%;
 }
+
 @media only screen and (max-width: 1040px) {
     .b-main-content {
         padding-bottom: 550px;
     }
 }
+
 @media only screen and (max-width: 480px) {
     .b-main-content {
         padding-bottom: 320px;
     }
 }
+
 body {
     position: relative;
     min-height: 100%;
@@ -177,12 +199,14 @@ body {
     text-transform: uppercase;
     background: url("../i/bg-grass.jpg");
 }
+
 .b-content-inner {
     position: relative;
     max-width: 147rem;
     margin: 0 auto;
     box-sizing: border-box;
 }
+
 .pizzahut-logo {
     background: url("../i/logo.png") no-repeat 0 0;
     background-size: cover;
@@ -190,6 +214,7 @@ body {
     width: 37.2rem;
     height: 5.2rem;
 }
+
 @media only screen and (max-width: 480px) {
     .pizzahut-logo {
         margin: 20px 0 0 20px;
@@ -197,6 +222,7 @@ body {
         height: 2.2rem;
     }
 }
+
 .o-bush-1 {
     background: url("../i/branch-1.png") no-repeat 0 0;
     background-size: cover;
@@ -206,17 +232,20 @@ body {
     top: 0;
     left: 0;
 }
+
 @media only screen and (max-width: 1040px) {
     .o-bush-1 {
         position: absolute;
         left: -12rem;
     }
 }
+
 @media only screen and (max-width: 480px) {
     .o-bush-1 {
         left: -20rem;
     }
 }
+
 .o-bush-2 {
     background: url("../i/branch-2.png") no-repeat 0 0;
     background-size: cover;
@@ -227,12 +256,14 @@ body {
     left: 0;
     z-index: 1;
 }
+
 @media only screen and (max-width: 1040px) {
     .o-bush-2 {
         display: none;
         left: -45rem;
     }
 }
+
 .o-bush-3 {
     background: url("../i/branch-3.png") no-repeat 0 0;
     background-size: cover;
@@ -243,20 +274,22 @@ body {
     right: 0;
     z-index: 1;
 }
+
 @media only screen and (max-width: 1040px) {
     .o-bush-3 {
         display: none;
         right: -20rem;
     }
 }
+
 /*.o-stick {*/
-    /*width: 21.2rem;*/
-    /*height: 17.5rem;*/
-    /*background: url("../i/stick.png") no-repeat 0 0;*/
-    /*background-size: cover;*/
-    /*position: absolute;*/
-    /*top: 29rem;*/
-    /*left: -35rem;*/
+/*width: 21.2rem;*/
+/*height: 17.5rem;*/
+/*background: url("../i/stick.png") no-repeat 0 0;*/
+/*background-size: cover;*/
+/*position: absolute;*/
+/*top: 29rem;*/
+/*left: -35rem;*/
 /*}*/
 .o-rug {
     background: url("../i/rug.png") no-repeat 0 0;
@@ -268,11 +301,13 @@ body {
     right: 0;
     margin-right: -21rem;
 }
+
 @media only screen and (max-width: 1040px) {
     .o-rug {
         margin-right: -60rem;
     }
 }
+
 @media only screen and (max-width: 480px) {
     .o-rug {
         width: 56.1rem;
@@ -281,36 +316,42 @@ body {
         top: -7.5rem;
     }
 }
+
 .h1 {
     position: relative;
     z-index: 1;
     font-size: 5.3rem;
-    text-shadow: 0px 30px 29px rgba(0,0,0,0.44);
+    text-shadow: 0px 30px 29px rgba(0, 0, 0, 0.44);
     width: 80rem;
     margin: 2.5rem 0 0 6rem;
 }
+
 @media only screen and (max-width: 480px) {
     .h1 {
         font-size: 3.6rem;
         margin: 50px 0 0 20px;
     }
 }
+
 .h1 span {
     display: block;
     font-size: 8.4rem;
     margin: 0rem 0 0 0rem;
 }
+
 @media only screen and (max-width: 480px) {
     .h1 span {
         font-size: 2.5rem;
         margin: 2rem 0 0 0;
     }
 }
+
 .h1 span.yellow {
     font-size: 12.2rem;
     margin: -3rem 0 0 0rem;
     color: #ffd800;
 }
+
 @media only screen and (max-width: 480px) {
     .h1 span.yellow {
         font-size: 6.7rem;
@@ -318,6 +359,7 @@ body {
         margin-top: 1rem;
     }
 }
+
 .red-block {
     background: url("../i/red-block.png") no-repeat 0 0;
     background-size: cover;
@@ -332,6 +374,7 @@ body {
     padding: 6.7rem 0 0 9rem;
     z-index: 100;
 }
+
 @media only screen and (max-width: 480px) {
     .red-block {
         position: relative;
@@ -339,12 +382,14 @@ body {
         transform: scale(0.75);
     }
 }
+
 .red-block span {
     display: block;
     font-size: 5.2rem;
     color: #fff;
     margin-top: -.5rem;
 }
+
 .red-block a.buy-btn {
     display: block;
     box-sizing: border-box;
@@ -357,11 +402,21 @@ body {
     text-decoration: none;
     padding: 4.5rem 0 0 8.5rem;
     margin-left: .6rem;
+    outline: none;
 }
+
 .red-block a.buy-btn:hover {
     background: url("../i/pizza-button-hover.png") no-repeat 0 0;
     background-size: cover;
 }
+
+@media only screen and (max-width: 1040px) {
+    .red-block a.buy-btn:hover {
+        background: url("../i/pizza-button.png") no-repeat 0 0;
+        background-size: cover;
+    }
+}
+
 
 .b-steps {
     width: 100%;
@@ -372,6 +427,7 @@ body {
     left: 0;
     z-index: 1;
 }
+
 @media only screen and (max-width: 1040px) {
     .b-steps {
         padding: 20px;
@@ -383,17 +439,20 @@ body {
         margin-top: -355px;
     }
 }
+
 .b-steps ul {
     margin: 2.6rem 0 0 6rem;
     display: flex;
     max-width: 80.7rem;
 }
+
 @media only screen and (max-width: 1040px) {
     .b-steps ul {
         display: block;
         margin: 10px 0 60px;
     }
 }
+
 .b-steps li {
     position: relative;
     font-size: 2.1rem;
@@ -404,7 +463,7 @@ body {
 }
 
 .item__margin-left {
-    //margin-left: 2rem;
+/ / margin-left: 2 rem;
 }
 
 @media only screen and (max-width: 1040px) {
@@ -417,18 +476,22 @@ body {
         margin: 0 0 30px;
         padding-left: 0;
     }
+
     .b-steps li br {
         display: none;
     }
+
     .b-steps li .title {
         padding-top: 1.3rem;
     }
 }
+
 @media only screen and (max-width: 1040px) and (max-width: 1040px) {
     .b-steps li .title {
         padding-top: 15px;
     }
 }
+
 .b-steps li:after {
     content: '';
     position: absolute;
@@ -438,17 +501,21 @@ body {
     top: 1rem;
     background: no-repeat right center url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi40MzciIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAxMi40MzcgMzUiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IG5vbmU7CiAgICAgICAgc3Ryb2tlOiAjOTk5OwogICAgICAgIHN0cm9rZS13aWR0aDogMnB4OwogICAgICAgIGZpbGwtcnVsZTogZXZlbm9kZDsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPHBhdGggaWQ9ImFycm93IiBjbGFzcz0iY2xzLTEiIGQ9Ik00NzAuMzQ4LDkyNEw0NzksOTM5Ljg2NSw0NzAuMzQ4LDk1NyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQ2Ny41NjMgLTkyMykiLz4KPC9zdmc+Cg==");
 }
+
 @media only screen and (max-width: 1040px) {
     .b-steps li:after {
         display: none;
     }
 }
+
 .b-steps li:last-child {
     margin-right: 0;
 }
+
 .b-steps li:last-child:after {
     display: none;
 }
+
 .b-steps .number {
     position: absolute;
     left: 0;
@@ -461,6 +528,7 @@ body {
     line-height: 5rem;
     background: #e00;
 }
+
 @media only screen and (max-width: 1040px) {
     .b-steps .number {
         font-size: 30px;
@@ -472,11 +540,13 @@ body {
         margin-right: 20px;
     }
 }
+
 .b-steps .btn {
     position: absolute;
     right: 16rem;
     top: -0.5rem;
 }
+
 @media only screen and (max-width: 1040px) {
     .b-steps .btn {
         display: block;
@@ -487,6 +557,7 @@ body {
         right: auto;
     }
 }
+
 .b-steps .pizza-piece {
     background: url("../i/pizza.png") no-repeat 0 0;
     background-size: cover;
@@ -496,6 +567,7 @@ body {
     right: 22.5rem;
     top: -3rem;
 }
+
 @media only screen and (max-width: 1040px) {
     .b-steps .pizza-piece {
         background-size: auto 100%;
@@ -505,9 +577,10 @@ body {
         top: -17px;
     }
 }
+
 .btn {
     background: #fff;
-    text-shadow: 0px 30px 29px rgba(0,0,0,0.44);
+    text-shadow: 0px 30px 29px rgba(0, 0, 0, 0.44);
     background: #fc0;
     color: #5f3a1f;
     text-decoration: none;
@@ -518,6 +591,7 @@ body {
     box-sizing: border-box;
     transition: background-color 0.3s ease;
 }
+
 @media only screen and (max-width: 1040px) {
     .btn {
         font-size: 18px;
@@ -526,6 +600,7 @@ body {
         height: 60px;
     }
 }
+
 .btn:hover {
     background-color: #ffe400;
 }
