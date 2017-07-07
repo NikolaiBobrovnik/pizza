@@ -363,13 +363,6 @@ body {
     background-size: cover;
 }
 
-@media only screen and (max-width: 1040px) {
-    .red-block a.buy-btn:hover {
-        background: inherit;
-        background-size: inherit;
-    }
-}
-
 .b-steps {
     width: 100%;
     height: 10rem;
